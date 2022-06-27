@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* cabeza */
+
+#contenedor{
+    background-color: #4a6199;
+    background-image: linear-gradient(180deg, #4a6199 0%, #2e417c 100%);
+    color: white; 
+    height:100px;
+    width: 100%;
+    display: flex;
+   position: relative;
+}
+
+ #logo{    
+    width:200px;
+    height: 55px;
+    margin:27px;
+    margin-left:120px;
+    margin-right:380px;
+    font-size: 50px; 
+    font-family: 'Merriweather Sans', sans-serif;
+} 
+
+#titular{
+    position: relative;
+    top:25px;
+    left: 2px;
+}
+
+#email{
+    position: relative;
+    height: 23px;
+    top: 50px;
+    right: 188px;
+}
+
+ #titular2{
+    position: relative;
+    top: 25px; 
+    right: 150px;
+}
+
+#contraseña{
+    position: relative;
+    height: 23px;
+    top: 50px;
+    right: 225px;
+}
+
+#olvidar_contraseña{
+    position: relative;
+    top: 53px; 
+    left: 215px;
+    color: white;
+    text-decoration: none;
+}
+
+#olvidar_contraseña:hover{
+    color: rgb(182, 182, 248);
+    text-decoration:underline;
+}
+
+#boton{
+    position: relative;
+    width: 90px;
+    height: 28px;   
+    left: 400px;
+    top: 5px;
+    margin-left: 10px;
+     border:none; 
+    background-color: rgb(157, 175, 219);
+    color: white;
+        
+    
+}
+
+#boton:hover{
+    background-color: rgb(109, 129, 180);
+   
+}
+
+/* cuerpo */
