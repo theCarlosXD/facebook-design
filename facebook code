@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" href="facebookcs.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <!--esta es la cabecera de facebook para poder introducir tu correo y contraseña para entrar a tu cuenta de facebook -->
+
+    <div id="contenedor">
+
+        <h1 id="logo">Facebook</h1>
+
+        <div id="cabeza">
+            <form>
+                <div >
+                    <label for="email" id="titular">Correo electronico o telefono</label>
+                    <input type="email" placeholder="Gmail o numero de telefono" id="email">
+        
+                    <label for="contraceña" id="titular2">Contraseña</label>
+                    <input type="password" placeholder="Contraseña" id="contraseña">
+                    
+                    <a id="olvidar_contraseña" href="file:///C:/Users/CM3966872/Desktop/facebook%20code/facebook.png.webp">¿Olvidaste tu contraseña?</a>
+
+                </div>
+
+                <button id="boton">iniciar sesion</button>
+        </div>
+    </div>
+
+    </form>
+
+
+    <section>
+        <!-- esto es para crear tu cuenta de facbook-->
+        <div id="">
+            <h1>Registrarte</h1>
+
+            <h3>es gratis y lo sera siempre</h3>
+
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+
+                <input type="text" placeholder="Numero de celular o correo electronico">
+                <input type="text" placeholder="Vuelve a ingresar tu celular o coorr... ">
+                <input type="text" placeholder="contraseña nueva">
+
+
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input list="dia" name="dia" placeholder="Dia" id="nacimiento">
+                <datalist id="dia">
+                    <option value="lunes">
+                    <option value="martes">
+                    <option value="miercoles">
+                    <option value="jueves">
+                    <option value="...">
+                </datalist>
+
+                <input list="mes" name="mes" placeholder="Mes" id="nacimiento">
+                <datalist id="mes">
+                    <option value="enero">
+                    <option value="febrero">
+                    <option value="marzo">
+                    <option value="abril">
+                    <option value="...">
+                </datalist>
+
+                <input list="año" name="año" placeholder="año" id="nacimiento">
+                <datalist id="año">
+                    <option value="2004">
+                    <option value="2005">
+                    <option value="2006">
+                    <option value="2007">
+                    <option value="...">
+                </datalist>
+
+                <input type="radio" name="mujer" value="Mujer" id="mujer">
+                <label for="mujer">Mujer</label>
+
+                <input type="radio" name="hombre" value="Hombre" id="hombre">
+                <label for="hombre">Hombre</label>
+
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
