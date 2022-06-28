@@ -10,25 +10,29 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
-    <!--esta es la cabecera de facebook para poder introducir tu correo y contraseña para entrar a tu cuenta de facebook -->
+    <!--esta es la cabecera de facebook-->
 
     <div id="contenedor">
 
-        <h1 id="logo">Facebook</h1>
+        <h1 id="logo">facebook</h1>
 
         <div id="cabeza">
             <form>
-                <div >
+                <div>
                     <label for="email" id="titular">Correo electronico o telefono</label>
                     <input type="email" placeholder="Gmail o numero de telefono" id="email">
-        
+
                     <label for="contraceña" id="titular2">Contraseña</label>
                     <input type="password" placeholder="Contraseña" id="contraseña">
-                    
-                    <a id="olvidar_contraseña" href="file:///C:/Users/CM3966872/Desktop/facebook%20code/facebook.png.webp">¿Olvidaste tu contraseña?</a>
+
+                    <a id="olvidar_contraseña"
+                        href="file:///C:/Users/CM3966872/Desktop/facebook%20code/facebook.png.webp">¿Olvidaste tu
+                        contraseña?</a>
 
                 </div>
 
@@ -38,25 +42,28 @@
 
     </form>
 
+    <!-- cuerpo de facebook-->
 
-    <section>
-        <!-- esto es para crear tu cuenta de facbook-->
-        <div id="">
-            <h1>Registrarte</h1>
+    <div id="cuerpo">
 
-            <h3>es gratis y lo sera siempre</h3>
+        <h1 id="titulo">Registrarte</h1>
 
-            <form>
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Apellido">
+        <P>Es gratis y lo sera siempre.</P>
 
-                <input type="text" placeholder="Numero de celular o correo electronico">
-                <input type="text" placeholder="Vuelve a ingresar tu celular o coorr... ">
-                <input type="text" placeholder="contraseña nueva">
+        <form>
+            <input type="text" placeholder="Nombre" class="general1">
+            <input type="text" placeholder="Apellido" class="general10">
+
+            <input type="text" placeholder="Numero de celular o correo electronico" class="general">
+            <input type="text" placeholder="Vuelve a ingresar tu celular o corr... " class="general">
+            <input type="text" placeholder="contraseña nueva" class="general">
 
 
-                <label for="nacimiento">Fecha de nacimiento:</label>
-                <input list="dia" name="dia" placeholder="Dia" id="nacimiento">
+            <label for="nacimiento" id="nacimientotitulo">Fecha de nacimiento</label>
+
+            <div class="contenedor_año">
+
+                <input list="dia" name="dia" placeholder="Dia" id="nacimiento" class="generalaño">
                 <datalist id="dia">
                     <option value="lunes">
                     <option value="martes">
@@ -65,7 +72,7 @@
                     <option value="...">
                 </datalist>
 
-                <input list="mes" name="mes" placeholder="Mes" id="nacimiento">
+                <input list="mes" name="mes" placeholder="Mes" id="nacimiento" class="generalaño">
                 <datalist id="mes">
                     <option value="enero">
                     <option value="febrero">
@@ -74,7 +81,7 @@
                     <option value="...">
                 </datalist>
 
-                <input list="año" name="año" placeholder="año" id="nacimiento">
+                <input list="año" name="año" placeholder="año" id="nacimiento" class="generalaño">
                 <datalist id="año">
                     <option value="2004">
                     <option value="2005">
@@ -82,16 +89,21 @@
                     <option value="2007">
                     <option value="...">
                 </datalist>
+            </div>
 
-                <input type="radio" name="mujer" value="Mujer" id="mujer">
-                <label for="mujer">Mujer</label>
 
-                <input type="radio" name="hombre" value="Hombre" id="hombre">
-                <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="Mujer" id="mujer" >
+            <label for="mujer" id="mujer">Mujer</label>
 
-            </form>
-        </div>
-    </section>
+            <input type="radio" name="genero" value="Hombre"  id="hombre" >
+            <label for="hombre" id="hombretxt">Hombre</label>
+
+            <!-- esto es el boton -->
+
+            
+
+        </form>
+    </div>
 
 
 
