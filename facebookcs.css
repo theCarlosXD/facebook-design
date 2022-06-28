@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 /* cabeza */
 
@@ -17,11 +18,11 @@
  #logo{    
     width:200px;
     height: 55px;
-    margin:27px;
+    margin:7px;
     margin-left:120px;
     margin-right:380px;
     font-size: 50px; 
-    font-family: 'Merriweather Sans', sans-serif;
+     font-family: 'Roboto Condensed', sans-serif;
 } 
 
 #titular{
@@ -56,6 +57,7 @@
     left: 215px;
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 
 #olvidar_contraseña:hover{
@@ -83,3 +85,95 @@
 }
 
 /* cuerpo */
+
+.general1,.general10{
+    padding: 13px  ;
+    width: 191px ;
+     border: 60%; 
+    border-radius: 4px;
+    margin-top: 2%; 
+    border: solid 1px rgb(219, 227, 245);
+    border-radius: 5px; 
+   
+}  
+
+ .general1{
+    margin-right:10px; 
+    margin-bottom:5px ;
+} 
+
+.general {
+    padding: 13px  ;
+    width: 425px ;
+     border: 60%; 
+    border-radius: 4px;
+    margin-top: 2%;  
+    border: solid 1px rgb(219, 227, 245);
+    border-radius: 5px;
+    margin-bottom:5px ;
+}   
+
+#nacimientotitulo{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    
+}
+
+.contenedor_año{
+    display: flex;
+}
+
+.generalaño {
+    padding: 13px  ;
+    width: 45px ;
+     border: 60%; 
+    border-radius: 4px;
+    margin-top: 2%;  
+    border: solid 1px rgb(219, 227, 245);
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+
+} 
+
+#cuerpo{ 
+    height:100%;
+    width: 500px ;
+    padding-bottom: 100px;
+    margin-left:740px;
+    
+}
+
+h1{
+    padding-top: 25px;
+    padding-bottom:10px ;
+}
+
+p{
+    padding-bottom:10px ;
+}
+
+h1,p{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#hombre{
+    margin-left: 40px;
+   
+}
+
+#hombretxt{
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mujer{
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* esto es el css del boton */
